@@ -1,0 +1,12 @@
+diff -Naur puremagic-1.11.old/setup.py puremagic-1.11/setup.py
+--- puremagic-1.11.old/setup.py	2021-12-16 17:36:47.600677502 +0100
++++ puremagic-1.11/setup.py	2021-12-16 17:39:06.183962134 +0100
+@@ -8,7 +8,7 @@
+ 
+ root = os.path.abspath(os.path.dirname(__file__))
+ 
+-with open(os.path.join(root, "puremagic", "main.py"), "r") as reuse_file:
++with open(os.path.join(root, "puremagic", "main.py"), "r", encoding="utf-8") as reuse_file:
+     reuse_content = reuse_file.read()
+ 
+ attrs = dict(re.findall(r"__([a-z]+)__ *= *['\"](.+)['\"]", reuse_content))
