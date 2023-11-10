@@ -40,7 +40,6 @@ Summary:        %{summary}
 %py3_check_import %{real_name}
 
 %files -n python3-%{real_name} -f %{pyproject_files}
-%license LICENSE
 %doc AUTHORS.rst CHANGELOG.md README.rst
 
 %changelog
