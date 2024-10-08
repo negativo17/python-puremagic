@@ -1,7 +1,7 @@
 %global real_name puremagic
 
 Name:           python-%{real_name}
-Version:        1.27
+Version:        1.28
 Release:        1%{?dist}
 Summary:        Pure python implementation of magic file detection
 License:        LGPLv3
@@ -43,6 +43,9 @@ Summary:        %{summary}
 %doc AUTHORS.rst CHANGELOG.md README.rst
 
 %changelog
+* Tue Oct 08 2024 Simone Caronni <negativo17@gmail.com> - 1.28-1
+- Update to 1.28.
+
 * Tue Aug 13 2024 Simone Caronni <negativo17@gmail.com> - 1.27-1
 - Update to 1.27.
 
